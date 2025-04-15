@@ -44,9 +44,26 @@ Contains raw terminal outputs from TriviaQA evaluation runs, showing final **Exa
 
 ### `Remote_LLM_RAG_pipeline/` *(coming soon)*
 
-This folder will include:
+This folder contains code, notebooks, and examples of outputs for the **remote** of the RAG pipeline using `Remote_LLM_RAG_pipeline`. The code can run on Kaggle platform.
 
+#### Notebooks
 
+| Notebook Name              | Description                                                             |
+|---------------------------|-------------------------------------------------------------------------|
+| `Remote_LLM_RAG`           | Whole process of the RAG pipeline. You need to change some variebles and file paths for different cases (500-token, 250-token, and no-RAG runs)|
+| `1508experiment.ipynb`      | Development and debugging of the RAG pipeline                                  |
+
+#### `test_results/`
+
+Contains output files examples:
+- Prediction and instance JSON files for the first 100 questions
+
+#### `pre-generated-database/`
+Contains the pre-generated vector database with different chunk size.
+
+#### `output/`
+
+Contains raw terminal outputs from TriviaQA evaluation runs, showing final **Exact Match (EM)** accuracy
 ---
 
 ## Evaluation
