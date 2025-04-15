@@ -42,7 +42,7 @@ Contains raw terminal outputs from TriviaQA evaluation runs, showing final **Exa
 
 ---
 
-### `Remote_LLM_RAG_pipeline/` *(coming soon)*
+### `Remote_LLM_RAG_pipeline/`
 
 This folder contains code, notebooks, and examples of outputs for the **remote** of the RAG pipeline using `Remote_LLM_RAG_pipeline`. The code can run on Kaggle platform.
 
