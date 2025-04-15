@@ -17,7 +17,7 @@ This project investigates how document chunking strategies—specifically token-
 
 This folder contains all code, notebooks, and outputs for the **local deployment** of the RAG pipeline using `LLama-3.2-3B-Instruct-AWQ`.
 
-#### 🔍 Notebooks
+#### Notebooks
 
 | Notebook Name              | Description                                                             |
 |---------------------------|-------------------------------------------------------------------------|
