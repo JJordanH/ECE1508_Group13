@@ -58,9 +58,6 @@ This folder contains code, notebooks, and examples of outputs for the **remote**
 Contains output files examples:
 - Prediction and instance JSON files for the first 100 questions
 
-#### `pre-generated-database/`
-Contains the pre-generated vector database with different chunk size.
-
 #### `output/`
 
 Contains raw terminal outputs from TriviaQA evaluation runs, showing final **Exact Match (EM)** accuracy. 
