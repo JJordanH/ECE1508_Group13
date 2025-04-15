@@ -63,7 +63,8 @@ Contains the pre-generated vector database with different chunk size.
 
 #### `output/`
 
-Contains raw terminal outputs from TriviaQA evaluation runs, showing final **Exact Match (EM)** accuracy
+Contains raw terminal outputs from TriviaQA evaluation runs, showing final **Exact Match (EM)** accuracy. 
+
 ---
 
 ## Evaluation
@@ -77,6 +78,7 @@ Each configuration was tested on a consistent subset of the dataset.
 ## System Details
 
 - **Local LLM**: `LLama-3.2-3B-Instruct-AWQ` (via `vllm`) on an RTX 3080 (10GB VRAM)
+- **Remote LLM**: `LLama-3.1-8B-Instruct-Turbo`
 - **Embedding Model**: `GTE-small`
 - **Retrieval**: FAISS using cosine similarity for top-`k` retrieval
 
